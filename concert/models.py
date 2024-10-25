@@ -65,31 +65,3 @@ class Song(models.Model):
 
     def __str__(self):
         return self.title
-        return self.attending
-
-
-class Photo(models.Model):
-    # id
-    # pic_url
-    # event_country
-    # event_state
-    # event_city
-    # event_date
-
-    class Meta:
-        managed = False
-
-    def __str__(self):
-        return self.pic_url
-
-
-class Song(models.Model):
-    # id
-    # title
-    # lyrics
-
-    class Meta:
-        managed = False
-
-    def __str__(self):
-        return self.title
